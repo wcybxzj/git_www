@@ -6,10 +6,12 @@
 #强制保留lib.a
 !lib.a
 
-
-#只忽略项目/TODO,其他目录/xxxx/TODO保留
+#/TODO--->ignore
+#/xxxx/TODO--->exist
 /TODO
 
+#/build--->ignore
+#/build1/build--->ignore
 build
 
 #/debug/1.txt--->ignore
